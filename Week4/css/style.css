@@ -1,0 +1,54 @@
+<style>
+#main{
+     width: 1000px;
+     height: 800px;
+     background-color: azure;
+     border: 1px solid black;
+ }
+ body,html{
+     display: flex;
+     justify-content: center;
+     background-color: cadetblue;
+     margin: 0;
+
+ }
+ #header{
+     text-align: center;
+     font-family:' Courier New', Courier, monospace;
+
+ }
+ #nav{
+     text-align: center;
+     border-bottom: 1px solid black;
+ }
+ .nav-list{
+     list-style: none;
+     display: inline;
+     text-align: center;
+     padding: 15px;
+ }
+ #content{
+     height: 600px;
+
+ }
+ 
+ #footer{
+     text-align: center;
+     border-top: 1px solid ;
+ }
+
+ #section-header{
+     padding-left: 25px;
+ }
+
+ #section-text{
+     width: 500px;
+     float: left;
+     padding-left: 20px;
+ } 
+a:hover
+
+
+
+
+</style>
