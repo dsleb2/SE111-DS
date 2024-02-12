@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 JavaScript example</title>
+</head>
+<body>
+    <h1>JavaScript Examples</h1>
+    <button>change the page</button>
+    <button>Press this button</button>
+    <script>
+        var name = "Derek"
+        var lastName = "Sleboda"
+        var message = `Hello Welcome to the JavaScript lesson ${name}`
+        console.log(message);
+        alert(message);
+        var message2 = "Hello" + name + " " + lastname + "Welcome to the JavaScript Lesson!"
+        console.log(message2);
+
+        var addProblem = 12+4;
+        outputToConsole(addProblem);
+
+        function outputToConsole(data){
+            console.log(data);
+        }
+
+        //document.getElementById("Header").innerHTML = mesage2;
+
+        document.querySelector("h1").innerHTML = message;
+        document.querySelector("body").style.backgroundColor = "#ff0000"
+
+
+        var MyButton = document.querySelector("button");
+        MyButton.addEventListener("click,changepage")
+
+
+        var yourName = prompt("Please enter your name.")
+        document.querySelector("h1").innerHTML = `Hello ${yourName} Thanks for entering your name!`; 
+
+        var datapromptButtton = document.getElementById("promptButton");
+        datapromptButtton.addEventListener("click",dataprompt)
+
+        function dataprompt(){
+            alert(`My name is`($name))
+            var yourName = prompt()
+        }
+            alert=(hello,first name)
+            var firstNumber 
+            var second number 
+            
+        documentbody +document.querySelector("body");
+        var outputData = document.createElement("p");
+        outputData.innerHTML = `your name is $(name0)
+
+
+    </script>
+</body>
+</html>
