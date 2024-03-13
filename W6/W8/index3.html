@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <h1>JavaScript Calculator</h1>
+
+    <Script>
+       
+const hourlyPay = Number(prompt("Enter your hourly pay:"));
+const hoursWorked = Number(prompt("Enter hours worked per week:"));
+const taxRate = 0.20; 
+
+
+const grossPay = hourlyPay * hoursWorked * 2; 
+const uncleSamShare = grossPay * taxRate;
+const netPay = grossPay - uncleSamShare;
+
+
+alert(`Gross Pay: $${grossPay}\nUncle Sam's Share: $${uncleSamShare}\nNet Pay: $${netPay}`);
+console.log(`Gross Pay: $${grossPay}`);
+console.log(`Uncle Sam's Share: $${uncleSamShare}`);
+console.log(`Net Pay: $${netPay}`); 
+    </Script>
+</body>
+</html>
